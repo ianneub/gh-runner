@@ -1,6 +1,6 @@
 FROM ubuntu:24.04
 
-ARG RUNNER_VERSION
+ARG RUNNER_VERSION=2.322.0
 ENV DEBIAN_FRONTEND=noninteractive
 
 # update the base packages + add a non-sudo user
